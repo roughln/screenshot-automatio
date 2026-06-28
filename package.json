@@ -1,0 +1,24 @@
+{
+  "name": "playwright-screenshot-automation",
+  "version": "1.0.0",
+  "description": "Automatically capture screenshots of a web app during manual navigation",
+  "main": "screenshot-automation.js",
+  "scripts": {
+    "start": "node screenshot-automation.js",
+    "clean": "rm -rf automated_screenshots/"
+  },
+  "keywords": [
+    "playwright",
+    "screenshot",
+    "automation",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.48.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
